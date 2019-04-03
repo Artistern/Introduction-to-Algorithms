@@ -90,6 +90,23 @@ NodeList *Delete_List(NodeList *head,NodeList *value)
 	}
 	return head;
 }
+
+//排序
+void List_Sort(NodeList *head)
+{
+	NodeList *key;
+	NodeList *temp;
+	head = head->next;
+	while(head!=NULL)
+	{
+		key = head;
+		temp = head->Prev;
+		while(temp!=NULL&&(temp->value)>key->value)
+		{
+			
+		}
+	}
+}
 int main()
 {
 	srand((unsigned)time(0));

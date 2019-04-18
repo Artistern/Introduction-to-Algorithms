@@ -33,7 +33,7 @@ void Search_list_next(NodeList *head)
 {
 	while(head!=NULL)
 	{
-		std::cout << head->value << std::endl;
+		std::cout << head->value << "\t";
 		head = head->next;
 	}
 }
